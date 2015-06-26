@@ -2,16 +2,11 @@
 <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.3/semantic.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.3/semantic.min.js"></script>
-	<script>
-		function injectJS() {
-			// TODO: inject js
-		}
-	</script>
 </head>
 <body>
 <div id="mainPopup">
 	<h1>AutoTime!</h1>
 	<p>Please make sure entries are created before clicking the button!</p>
-	<div class="ui primary button" onclick="injectJS"></div>
+	<div class="ui primary button" onclick="chrome.tabs.executeScript(null, {file: "popup.js"});">Fill</div>
 </div>
 </body>
