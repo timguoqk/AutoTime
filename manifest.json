@@ -1,9 +1,9 @@
 {
   "name": "AutoTime: Fill in the timesheet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Fill in the timesheet, with 8*5 work time and 0.5*5 mandatory lunch break.",
-  "homepage_url": "http://extensionizr.com",
+  "homepage_url": "https://github.com/timguoqk",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
