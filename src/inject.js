@@ -9,6 +9,10 @@ var values = [
 	["12:30 PM", "6:30 PM"]
 ];
 
+for (var i = 1; i <= 5; i ++)
+	$("#tsExpressAdd" + i).click().click();
+
+
 for (var i = 0; i < entries.length; i ++) {
 	for (var j = 0; j < entries[i].length; j ++) {
 		$("input#startTime_" + entries[i][j]).val(values[i][0]);
